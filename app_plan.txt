@@ -1,0 +1,10 @@
+Goals:
+~Phase 1~
+- Using the API pull list of subscribers from my account
+- Store the full list of subscribers in DB locally
+- Then display list of subs on a web page
+
+~Phase 2~
+- Have list locally sync with list pulled from AWeber account.  
+- Display subscribers based on time added
+- Have page be live on site, not just local
