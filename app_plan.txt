@@ -1,6 +1,6 @@
 Goals:
 ~Phase 1~
-- Using the API pull list of subscribers from my account
+- Using the API pull list of subscribers from my account - done 9/21
 - Store the full list of subscribers in DB locally
 - Then display list of subs on a web page
 
