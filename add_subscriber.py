@@ -16,7 +16,7 @@ def main():
     emails = ['danp+{}@gmail.com'.format(i) for i in range(500)]
     for email in emails:
         try:
-            if add_sub(aweber, url, email, name=['DanP{}'.format(x) for x in range(500)]):
+            if add_sub(aweber, url, email, name='DanP'):
                 print('Subscriber {} added to list {}'.format(email, list_id))
         except RateLimitException:
             print('Rate Limit Hit - Waiting 60 sec')
